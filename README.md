@@ -1,1 +1,1 @@
-# Deploy-Php-web-app-on-separate-web-and-database-server-on-AWS
+# Deploy PHP Web Application on separate Web Server and Databse Server on AWS Cloud
