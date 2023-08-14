@@ -17,6 +17,10 @@ dnf install php8.1
 ```
 ![image](https://github.com/rahulchauhan7874/Deploy-Php-web-app-on-separate-web-and-database-server-on-AWS/assets/108551570/d55558ab-6aaf-428e-b1ff-aaeb9dcef456)
 
+```bash
+php -v
+```
+![image](https://github.com/rahulchauhan7874/Deploy-Php-web-app-on-separate-web-and-database-server-on-AWS/assets/108551570/10630653-153c-4366-9352-2fa736301d7e)
 
 
 
