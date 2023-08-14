@@ -17,11 +17,43 @@ dnf install php8.1
 ```
 ![image](https://github.com/rahulchauhan7874/Deploy-Php-web-app-on-separate-web-and-database-server-on-AWS/assets/108551570/d55558ab-6aaf-428e-b1ff-aaeb9dcef456)
 
+#### Check the version of PHP :
 ```bash
 php -v
 ```
 ![image](https://github.com/rahulchauhan7874/Deploy-Php-web-app-on-separate-web-and-database-server-on-AWS/assets/108551570/10630653-153c-4366-9352-2fa736301d7e)
 
+#### Install the php-mysqlnd driver so that your php code can connect with MySQL database :
+```bash
+dnf install php8.1-mysqlnd.x86.64
+```
+
+#### Start the PHP-FPM Process :
+```bash
+systemctl start php-fpm
+```
+
+#### Confirm that PHP-FPM is running or not :
+```bash
+systemctl status php-fpm
+```
+
+#### Installation of Apache Web Server : When you install php, by default it will install Apache/httpd Web Server :
+
+#### Check version of Apache
+```bash
+httpd -v
+```
+
+#### Start Apache Web Server :
+```bash
+systemctl start httpd
+```
+
+#### Check status of Apache Web Server :
+```bash
+systemctl status httpd
+```
 
 
 
