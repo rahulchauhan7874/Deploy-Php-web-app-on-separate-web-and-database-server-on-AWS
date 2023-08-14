@@ -63,4 +63,10 @@ systemctl status httpd
 ![image](https://github.com/rahulchauhan7874/Deploy-Php-web-app-on-separate-web-and-database-server-on-AWS/assets/108551570/8e9814e3-16d9-4696-b85c-8cf2be01febe)
 
 
+### Installation of MySQL Database :
+#### Get the MySQL package :
+```bash
+wget https://dev.mysql.com/get/mysql80-community-release-el9-1.noarch.rpm -y
+```
 
+#### 
